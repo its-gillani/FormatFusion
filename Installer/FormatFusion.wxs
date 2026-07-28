@@ -1,0 +1,85 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+
+  <Package Name="FormatFusion"
+           Manufacturer="FormatFusion"
+           Version="1.0.0.0"
+           UpgradeCode="B8C4D3E2-F5A6-7890-BCDE-F01234567890"
+           Language="1033"
+           InstallerVersion="500"
+           Scope="perMachine">
+
+    <!-- Require Windows 10 build 19041+ -->
+    <Launch Condition="VersionNT64 &gt;= 1004"
+            Message="FormatFusion requires 64-bit Windows 10 (version 2004) or later." />
+
+    <!-- Remove older versions automatically on upgrade -->
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+
+    <!-- Embed CAB with high compression -->
+    <MediaTemplate EmbedCab="yes" CompressionLevel="high" />
+
+    <!-- Icon for Add/Remove Programs -->
+    <Icon Id="AppIcon.ico" SourceFile="$(var.PublishDir)\FormatFusion.exe" />
+    <Property Id="ARPPRODUCTICON" Value="AppIcon.ico" />
+    <Property Id="ARPHELPLINK" Value="https://github.com/FormatFusion" />
+    <Property Id="ARPNOREPAIR" Value="1" />
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+
+    <!-- WiX standard install-dir UI with license screen -->
+    <ui:WixUI Id="WixUI_InstallDir" />
+    <WixVariable Id="WixUILicenseRtf" Value="License.rtf" />
+
+    <!-- Directory tree -->
+    <StandardDirectory Id="ProgramFiles64Folder">
+      <Directory Id="INSTALLFOLDER" Name="FormatFusion" />
+    </StandardDirectory>
+
+    <StandardDirectory Id="ProgramMenuFolder">
+      <Directory Id="AppMenuFolder" Name="FormatFusion" />
+    </StandardDirectory>
+
+    <StandardDirectory Id="DesktopFolder" />
+
+    <!-- Start menu shortcut component -->
+    <Component Id="StartMenuShortcuts" Directory="AppMenuFolder"
+               Guid="E3F4A5B6-C7D8-9012-EFAB-234567890123">
+      <Shortcut Id="StartMenuShortcut"
+                Name="FormatFusion"
+                Target="[INSTALLFOLDER]FormatFusion.exe"
+                WorkingDirectory="INSTALLFOLDER" />
+      <Shortcut Id="UninstallShortcut"
+                Name="Uninstall FormatFusion"
+                Target="[SystemFolder]msiexec.exe"
+                Arguments="/x [ProductCode]" />
+      <RemoveFolder Id="RemoveAppMenuFolder" Directory="AppMenuFolder" On="uninstall" />
+      <RegistryValue Root="HKCU"
+                     Key="Software\FormatFusion"
+                     Name="installed"
+                     Type="integer" Value="1"
+                     KeyPath="yes" />
+    </Component>
+
+    <!-- Desktop shortcut component -->
+    <Component Id="DesktopShortcut" Directory="DesktopFolder"
+               Guid="F4A5B6C7-D8E9-0123-FABC-345678901234">
+      <Shortcut Id="DesktopSc"
+                Name="FormatFusion"
+                Target="[INSTALLFOLDER]FormatFusion.exe"
+                WorkingDirectory="INSTALLFOLDER" />
+      <RegistryValue Root="HKCU"
+                     Key="Software\FormatFusion"
+                     Name="desktop"
+                     Type="integer" Value="1"
+                     KeyPath="yes" />
+    </Component>
+
+    <!-- Feature: all harvested publish files + shortcuts -->
+    <Feature Id="ProductFeature" Title="FormatFusion" Level="1">
+      <ComponentGroupRef Id="PublishFiles" />
+      <ComponentRef Id="StartMenuShortcuts" />
+      <ComponentRef Id="DesktopShortcut" />
+    </Feature>
+
+  </Package>
+</Wix>

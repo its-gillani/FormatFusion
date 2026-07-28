@@ -1,0 +1,32 @@
+<Project Sdk="WixToolset.Sdk/7.0.0">
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <Description>FormatFusion — Convert &amp; compress any file format, offline.</Description>
+    <PublishDir>$(MSBuildThisFileDirectory)..\Publish\FormatFusion\</PublishDir>
+    <OutputPath>$(MSBuildThisFileDirectory)Output\</OutputPath>
+    <OutputName>FormatFusion-1.0.0</OutputName>
+  </PropertyGroup>
+
+  <!-- Pass PublishDir as a preprocessor variable to the .wxs -->
+  <PropertyGroup>
+    <DefineConstants>PublishDir=$(PublishDir)</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WixToolset.UI.wixext" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Main WiX authoring file -->
+    <Compile Include="FormatFusion.wxs" />
+
+    <!-- Harvest all files in the publish output automatically -->
+    <HarvestDirectory Include="$(PublishDir)"
+                      DirectoryRefId="INSTALLFOLDER"
+                      ComponentGroupName="PublishFiles"
+                      SuppressRootDirectory="yes"
+                      KeepEmptyDirectories="no" />
+  </ItemGroup>
+
+</Project>

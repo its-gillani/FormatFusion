@@ -1,0 +1,35 @@
+<UserControl x:Class="FormatFusion.UI.Views.Components.DropZoneCard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:FormatFusion.UI.Views.Components"
+             x:Name="Root">
+    <Border x:Name="DropZoneBorder"
+            MinHeight="140"
+            Style="{StaticResource ThemeDropZoneBorder}"
+            AllowDrop="True"
+            DragEnter="DropZone_DragEnter"
+            DragLeave="DropZone_DragLeave"
+            Drop="DropZone_Drop"
+            MouseLeftButtonUp="DropZone_Click"
+            Cursor="Hand"
+            Margin="0,0,0,16">
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            <Path Grid.Column="0" Data="{Binding Icon, ElementName=Root}" Fill="{DynamicResource ThemeTextPrimaryBrush}" 
+                  Width="48" Height="48" Stretch="Uniform" VerticalAlignment="Center" Margin="24,0,24,0" />
+            
+            <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="0,16,16,16">
+                <TextBlock Text="{Binding Title, ElementName=Root}" Style="{StaticResource ThemeTitleText}" Margin="0,0,0,4" />
+                <TextBlock Text="{Binding Description, ElementName=Root}" Style="{StaticResource ThemeBodySecondaryText}" TextWrapping="Wrap" Margin="0,0,0,12" />
+                <TextBlock Text="Drop files here, or click to browse" Style="{StaticResource ThemeCaptionText}" Foreground="{DynamicResource ThemeTextTertiaryBrush}" />
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>
+
+

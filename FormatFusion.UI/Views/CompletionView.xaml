@@ -1,0 +1,89 @@
+<Page x:Class="FormatFusion.UI.Views.CompletionView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{DynamicResource ThemeWindowBackgroundBrush}"
+      Title="Done">
+
+    <Grid Margin="48,32">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center" Margin="0,0,0,32">
+            <Path Data="{StaticResource IconCheckCircle}" Fill="{DynamicResource ThemeSuccessBrush}" 
+                  Width="48" Height="48" Stretch="Uniform" HorizontalAlignment="Center" Margin="0,0,0,12" />
+            <TextBlock Text="{Binding HeadlineText}" Style="{StaticResource ThemeHeadingText}"
+                       HorizontalAlignment="Center" Margin="0,0,0,8" />
+            <TextBlock Text="{Binding TotalSavedText}" Style="{StaticResource ThemeBodySecondaryText}"
+                       HorizontalAlignment="Center" />
+        </StackPanel>
+
+        <!-- Results Table -->
+        <Border Grid.Row="1" Style="{StaticResource ThemeCardBorder}">
+            <StackPanel>
+                <!-- Column headers -->
+                <Grid Margin="0,0,0,8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="80" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="File" Style="{StaticResource ThemeCaptionText}" />
+                    <TextBlock Grid.Column="1" Text="Before" Style="{StaticResource ThemeCaptionText}" HorizontalAlignment="Right" />
+                    <TextBlock Grid.Column="2" Text="After" Style="{StaticResource ThemeCaptionText}" HorizontalAlignment="Right" />
+                    <TextBlock Grid.Column="3" Text="Savings" Style="{StaticResource ThemeCaptionText}" HorizontalAlignment="Right" />
+                </Grid>
+                <Separator Background="{DynamicResource ThemeBorderBrush}" Margin="0,0,0,8" />
+
+                <ScrollViewer MaxHeight="400" VerticalScrollBarVisibility="Auto">
+                    <ItemsControl ItemsSource="{Binding Results}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0,0,0,6">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="100" />
+                                        <ColumnDefinition Width="100" />
+                                        <ColumnDefinition Width="80" />
+                                    </Grid.ColumnDefinitions>
+                                    <StackPanel Grid.Column="0">
+                                        <TextBlock Text="{Binding FileName}" Style="{StaticResource ThemeBodyText}"
+                                                   TextTrimming="CharacterEllipsis" />
+                                        <TextBlock Text="{Binding OperationLabel}"
+                                                   Style="{StaticResource ThemeCaptionText}" />
+                                    </StackPanel>
+                                    <TextBlock Grid.Column="1" Text="{Binding InputSizeFormatted}"
+                                               Style="{StaticResource ThemeBodySecondaryText}"
+                                               HorizontalAlignment="Right" VerticalAlignment="Center" />
+                                    <TextBlock Grid.Column="2" Text="{Binding OutputSizeFormatted}"
+                                               Style="{StaticResource ThemeBodyText}"
+                                               HorizontalAlignment="Right" VerticalAlignment="Center" />
+                                    <TextBlock Grid.Column="3" Text="{Binding SavingsFormatted}"
+                                               Foreground="{DynamicResource ThemeSuccessBrush}"
+                                               FontWeight="SemiBold"
+                                               HorizontalAlignment="Right" VerticalAlignment="Center" />
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+            </StackPanel>
+        </Border>
+
+        <!-- Actions -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,24,0,0">
+            <Button Content="Copy Results" Style="{StaticResource ThemeButtonSecondary}" BorderThickness="0"
+                    Command="{Binding CopyResultsCommand}" Margin="0,0,12,0" />
+            <Button Content="Open Output Folder" Style="{StaticResource ThemeButtonSecondary}" BorderThickness="0"
+                    Command="{Binding OpenFolderCommand}" Margin="0,0,12,0" />
+            <Button Content="Convert More Files" Style="{StaticResource ThemeButtonPrimary}"
+                    Command="{Binding ConvertMoreCommand}" />
+        </StackPanel>
+    </Grid>
+</Page>
+
+

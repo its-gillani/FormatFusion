@@ -1,0 +1,31 @@
+# Git ignore file for FormatFusion
+
+# Build outputs
+bin/
+obj/
+*.user
+*.suo
+
+# Visual Studio files
+.vs/
+*.vsidx
+
+# NuGet packages (restored automatically)
+packages/
+*.nupkg
+
+# Tools directory — binaries must be sourced separately
+FormatFusion.UI/Tools/*.exe
+FormatFusion.UI/Tools/*.dll
+
+# Temp files
+*.tmp
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# FFmpeg 2-pass temp files
+ffmpeg2pass-*.log
+ffmpeg2pass-*.log.mbtree

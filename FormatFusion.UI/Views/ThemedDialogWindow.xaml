@@ -1,0 +1,41 @@
+<Window x:Class="FormatFusion.UI.Views.ThemedDialogWindow" FocusVisualStyle="{x:Null}"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dialog" SizeToContent="Height" Width="450"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True">
+        <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CornerRadius="0" CaptionHeight="48" ResizeBorderThickness="0" />
+    </WindowChrome.WindowChrome>
+
+    <Window.Resources>
+        <ResourceDictionary Source="../Theme/Controls.xaml"/>
+    </Window.Resources>
+    
+    <Border Style="{StaticResource ThemeCardBorder}" BorderThickness="1" CornerRadius="12">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock x:Name="TitleText" Text="Title" Style="{StaticResource ThemeTitleText}" Margin="0,0,0,16"/>
+            
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" MaxHeight="400">
+                <TextBlock x:Name="MessageText" Text="Message" Style="{StaticResource ThemeBodyText}" TextWrapping="Wrap"/>
+            </ScrollViewer>
+            
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,24,0,0">
+                <Button x:Name="CancelBtn" Content="Cancel" Style="{StaticResource ThemeButtonSecondary}" Margin="0,0,12,0" Click="CancelBtn_Click"/>
+                <Button x:Name="ExtraBtn" Content="Extra" Style="{StaticResource ThemeButtonSecondary}" Margin="0,0,12,0" Click="ExtraBtn_Click" Visibility="Collapsed"/>
+                <Button x:Name="ProceedBtn" Content="Proceed" Style="{StaticResource ThemeButtonPrimary}" Click="ProceedBtn_Click"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
+
+

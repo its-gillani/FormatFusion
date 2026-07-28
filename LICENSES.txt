@@ -1,0 +1,62 @@
+THIRD-PARTY SOFTWARE LICENSES
+================================
+FormatFusion uses the following open-source libraries.
+
+───────────────────────────────────────────────────────────────────
+1. FFMpegCore
+   License: MIT
+   Source: https://github.com/rosenbjerg/FFMpegCore
+───────────────────────────────────────────────────────────────────
+
+2. FFmpeg (binary, bundled as ffmpeg.exe / ffprobe.exe)
+   License: LGPL 2.1 or later (essentials build — no GPL codecs)
+   Source: https://ffmpeg.org | Build: https://www.gyan.dev/ffmpeg/builds/
+   
+   This application uses an LGPL-configured build of FFmpeg.
+   FFmpeg source code is available at https://ffmpeg.org/download.html
+   Changes to FFmpeg source: None. The binary is used unmodified.
+
+───────────────────────────────────────────────────────────────────
+3. Magick.NET (ImageMagick for .NET)
+   License: Apache License 2.0
+   Source: https://github.com/dlemstra/Magick.NET
+───────────────────────────────────────────────────────────────────
+
+4. SharpCompress
+   License: MIT
+   Source: https://github.com/adamhathcock/sharpcompress
+───────────────────────────────────────────────────────────────────
+
+5. CommunityToolkit.Mvvm
+   License: MIT
+   Source: https://github.com/CommunityToolkit/dotnet
+───────────────────────────────────────────────────────────────────
+
+6. Microsoft.Extensions.DependencyInjection
+   License: MIT
+   Source: https://github.com/dotnet/runtime
+───────────────────────────────────────────────────────────────────
+
+7. ModernWpfUI
+   License: MIT
+   Source: https://github.com/Kinnara/ModernWpf
+───────────────────────────────────────────────────────────────────
+
+8. Serilog + Serilog.Sinks.File
+   License: Apache License 2.0
+   Source: https://github.com/serilog/serilog
+───────────────────────────────────────────────────────────────────
+
+9. PdfPig
+   License: Apache License 2.0
+   Source: https://github.com/UglyToad/PdfPig
+───────────────────────────────────────────────────────────────────
+
+10. Pandoc (optional, user-provided or bundled binary)
+    License: GPL 2.0 or later
+    Source: https://pandoc.org
+    
+    Pandoc is invoked as an external process. This application does
+    not link to or incorporate Pandoc source code. Users may install
+    Pandoc separately from https://pandoc.org/installing.html
+───────────────────────────────────────────────────────────────────

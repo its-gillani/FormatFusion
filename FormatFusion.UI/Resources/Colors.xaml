@@ -1,0 +1,83 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- ═══════════════════════════════════════════
+         FormatFusion Design System — Color Tokens
+         Dark-first palette with light mode overrides
+    ══════════════════════════════════════════════ -->
+
+    <!-- Brand Accent -->
+    <Color x:Key="AccentColor">#6C63FF</Color>
+    <Color x:Key="AccentHoverColor">#7B73FF</Color>
+    <Color x:Key="AccentActiveColor">#5A52E0</Color>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}" />
+    <SolidColorBrush x:Key="AccentHoverBrush" Color="{StaticResource AccentHoverColor}" />
+    <SolidColorBrush x:Key="AccentActiveBrush" Color="{StaticResource AccentActiveColor}" />
+
+    <!-- Dark Theme Surfaces -->
+    <Color x:Key="Surface0Color">#0F0F1A</Color>  <!-- Deepest background -->
+    <Color x:Key="Surface1Color">#1A1A2E</Color>  <!-- Main background -->
+    <Color x:Key="Surface2Color">#242438</Color>  <!-- Card background -->
+    <Color x:Key="Surface3Color">#2E2E46</Color>  <!-- Elevated card / hover -->
+    <Color x:Key="Surface4Color">#3A3A56</Color>  <!-- Input / sidebar item hover -->
+
+    <SolidColorBrush x:Key="Surface0Brush" Color="{StaticResource Surface0Color}" />
+    <SolidColorBrush x:Key="Surface1Brush" Color="{StaticResource Surface1Color}" />
+    <SolidColorBrush x:Key="Surface2Brush" Color="{StaticResource Surface2Color}" />
+    <SolidColorBrush x:Key="Surface3Brush" Color="{StaticResource Surface3Color}" />
+    <SolidColorBrush x:Key="Surface4Brush" Color="{StaticResource Surface4Color}" />
+
+    <!-- Text -->
+    <Color x:Key="TextPrimaryColor">#F0F0F8</Color>
+    <Color x:Key="TextSecondaryColor">#A0A0C0</Color>
+    <Color x:Key="TextTertiaryColor">#606080</Color>
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="{StaticResource TextPrimaryColor}" />
+    <SolidColorBrush x:Key="TextSecondaryBrush" Color="{StaticResource TextSecondaryColor}" />
+    <SolidColorBrush x:Key="TextTertiaryBrush" Color="{StaticResource TextTertiaryColor}" />
+
+    <!-- Status Colors -->
+    <Color x:Key="SuccessColor">#2DD4BF</Color>    <!-- Teal -->
+    <Color x:Key="WarningColor">#F59E0B</Color>    <!-- Amber -->
+    <Color x:Key="ErrorColor">#F87171</Color>      <!-- Soft red -->
+    <Color x:Key="InfoColor">#60A5FA</Color>       <!-- Blue -->
+    <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}" />
+    <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource WarningColor}" />
+    <SolidColorBrush x:Key="ErrorBrush" Color="{StaticResource ErrorColor}" />
+    <SolidColorBrush x:Key="InfoBrush" Color="{StaticResource InfoColor}" />
+
+    <!-- Category Colors (used on file type badges) -->
+    <SolidColorBrush x:Key="CategoryImageBrush" Color="#A78BFA" />   <!-- Purple -->
+    <SolidColorBrush x:Key="CategoryAudioBrush" Color="#34D399" />   <!-- Green -->
+    <SolidColorBrush x:Key="CategoryVideoBrush" Color="#F97316" />   <!-- Orange -->
+    <SolidColorBrush x:Key="CategoryDocumentBrush" Color="#60A5FA" /> <!-- Blue -->
+    <SolidColorBrush x:Key="CategoryArchiveBrush" Color="#FBBF24" /> <!-- Yellow -->
+
+    <!-- Borders -->
+    <Color x:Key="BorderSubtleColor">#2A2A42</Color>
+    <Color x:Key="BorderDefaultColor">#383860</Color>
+    <SolidColorBrush x:Key="BorderSubtleBrush" Color="{StaticResource BorderSubtleColor}" />
+    <SolidColorBrush x:Key="BorderDefaultBrush" Color="{StaticResource BorderDefaultColor}" />
+
+    <!-- Drop Zone -->
+    <Color x:Key="DropZoneBorderColor">#4A4A80</Color>
+    <SolidColorBrush x:Key="DropZoneBorderBrush" Color="{StaticResource DropZoneBorderColor}" />
+    <SolidColorBrush x:Key="DropZoneHoverBrush" Color="#1E1E40" />
+
+    <!-- Progress Bar -->
+    <LinearGradientBrush x:Key="ProgressBarBrush" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="#6C63FF" Offset="0" />
+        <GradientStop Color="#A78BFA" Offset="1" />
+    </LinearGradientBrush>
+
+    <!-- Corner Radii -->
+    <CornerRadius x:Key="RadiusCard">8</CornerRadius>
+    <CornerRadius x:Key="RadiusButton">6</CornerRadius>
+    <CornerRadius x:Key="RadiusBadge">4</CornerRadius>
+    <CornerRadius x:Key="RadiusInput">6</CornerRadius>
+
+    <!-- Shadows -->
+    <DropShadowEffect x:Key="CardShadow" BlurRadius="20" ShadowDepth="4"
+                      Color="#000000" Opacity="0.35" Direction="270" />
+    <DropShadowEffect x:Key="ButtonGlowShadow" BlurRadius="12" ShadowDepth="0"
+                      Color="#6C63FF" Opacity="0.4" />
+</ResourceDictionary>

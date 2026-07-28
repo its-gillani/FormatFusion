@@ -1,0 +1,1784 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Directory Id="Dir0001" Name="af-ZA" />
+      <Directory Id="Dir0002" Name="am-ET" />
+      <Directory Id="Dir0003" Name="ar-SA" />
+      <Directory Id="Dir0004" Name="az-Latn-AZ" />
+      <Directory Id="Dir0005" Name="be-BY" />
+      <Directory Id="Dir0006" Name="bg-BG" />
+      <Directory Id="Dir0007" Name="bn-BD" />
+      <Directory Id="Dir0008" Name="bs-Latn-BA" />
+      <Directory Id="Dir0009" Name="ca-ES" />
+      <Directory Id="Dir0010" Name="cs" />
+      <Directory Id="Dir0011" Name="cs-CZ" />
+      <Directory Id="Dir0012" Name="da-DK" />
+      <Directory Id="Dir0013" Name="de" />
+      <Directory Id="Dir0014" Name="de-DE" />
+      <Directory Id="Dir0015" Name="el-GR" />
+      <Directory Id="Dir0016" Name="en-GB" />
+      <Directory Id="Dir0017" Name="es" />
+      <Directory Id="Dir0018" Name="es-ES" />
+      <Directory Id="Dir0019" Name="es-MX" />
+      <Directory Id="Dir0020" Name="et-EE" />
+      <Directory Id="Dir0021" Name="eu-ES" />
+      <Directory Id="Dir0022" Name="fa-IR" />
+      <Directory Id="Dir0023" Name="fi-FI" />
+      <Directory Id="Dir0024" Name="fil-PH" />
+      <Directory Id="Dir0025" Name="fr" />
+      <Directory Id="Dir0026" Name="fr-CA" />
+      <Directory Id="Dir0027" Name="fr-FR" />
+      <Directory Id="Dir0028" Name="gl-ES" />
+      <Directory Id="Dir0029" Name="he-IL" />
+      <Directory Id="Dir0030" Name="hi-IN" />
+      <Directory Id="Dir0031" Name="hr-HR" />
+      <Directory Id="Dir0032" Name="hu-HU" />
+      <Directory Id="Dir0033" Name="id-ID" />
+      <Directory Id="Dir0034" Name="is-IS" />
+      <Directory Id="Dir0035" Name="it" />
+      <Directory Id="Dir0036" Name="it-IT" />
+      <Directory Id="Dir0037" Name="ja" />
+      <Directory Id="Dir0038" Name="ja-JP" />
+      <Directory Id="Dir0039" Name="ka-GE" />
+      <Directory Id="Dir0040" Name="kk-KZ" />
+      <Directory Id="Dir0041" Name="km-KH" />
+      <Directory Id="Dir0042" Name="kn-IN" />
+      <Directory Id="Dir0043" Name="ko" />
+      <Directory Id="Dir0044" Name="ko-KR" />
+      <Directory Id="Dir0045" Name="lo-LA" />
+      <Directory Id="Dir0046" Name="lt-LT" />
+      <Directory Id="Dir0047" Name="lv-LV" />
+      <Directory Id="Dir0048" Name="mk-MK" />
+      <Directory Id="Dir0049" Name="ml-IN" />
+      <Directory Id="Dir0050" Name="ms-MY" />
+      <Directory Id="Dir0051" Name="nb-NO" />
+      <Directory Id="Dir0052" Name="nl-NL" />
+      <Directory Id="Dir0053" Name="nn-NO" />
+      <Directory Id="Dir0054" Name="pl" />
+      <Directory Id="Dir0055" Name="pl-PL" />
+      <Directory Id="Dir0056" Name="pt-BR" />
+      <Directory Id="Dir0057" Name="pt-PT" />
+      <Directory Id="Dir0058" Name="ro-RO" />
+      <Directory Id="Dir0059" Name="ru" />
+      <Directory Id="Dir0060" Name="ru-RU" />
+      <Directory Id="Dir0061" Name="sk-SK" />
+      <Directory Id="Dir0062" Name="sl-SI" />
+      <Directory Id="Dir0063" Name="sq-AL" />
+      <Directory Id="Dir0064" Name="sr-Latn-RS" />
+      <Directory Id="Dir0065" Name="sv-SE" />
+      <Directory Id="Dir0066" Name="sw-KE" />
+      <Directory Id="Dir0067" Name="ta-IN" />
+      <Directory Id="Dir0068" Name="te-IN" />
+      <Directory Id="Dir0069" Name="th-TH" />
+      <Directory Id="Dir0070" Name="Tools" />
+      <Directory Id="Dir0071" Name="tr" />
+      <Directory Id="Dir0072" Name="tr-TR" />
+      <Directory Id="Dir0073" Name="uk-UA" />
+      <Directory Id="Dir0074" Name="uz-Latn-UZ" />
+      <Directory Id="Dir0075" Name="vi-VN" />
+      <Directory Id="Dir0076" Name="x64" />
+      <Directory Id="Dir0077" Name="x86" />
+      <Directory Id="Dir0078" Name="zh-Hans" />
+      <Directory Id="Dir0079" Name="zh-Hant" />
+    </DirectoryRef>
+    <ComponentGroup Id="PublishFiles">
+      <Component Id="Co00001" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00001" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Accessibility.dll" />
+      </Component>
+      <Component Id="Co00002" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00002" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\clretwrc.dll" />
+      </Component>
+      <Component Id="Co00003" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00003" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\clrgc.dll" />
+      </Component>
+      <Component Id="Co00004" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00004" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\clrgcexp.dll" />
+      </Component>
+      <Component Id="Co00005" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00005" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\clrjit.dll" />
+      </Component>
+      <Component Id="Co00006" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00006" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\CommunityToolkit.Mvvm.dll" />
+      </Component>
+      <Component Id="Co00007" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00007" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\coreclr.dll" />
+      </Component>
+      <Component Id="Co00008" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00008" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\createdump.exe" />
+      </Component>
+      <Component Id="Co00009" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00009" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\D3DCompiler_47_cor3.dll" />
+      </Component>
+      <Component Id="Co00010" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00010" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\DirectWriteForwarder.dll" />
+      </Component>
+      <Component Id="Co00011" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00011" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FFMpegCore.dll" />
+      </Component>
+      <Component Id="Co00012" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00012" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.Compression.dll" />
+      </Component>
+      <Component Id="Co00013" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00013" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.Compression.pdb" />
+      </Component>
+      <Component Id="Co00014" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00014" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.Core.dll" />
+      </Component>
+      <Component Id="Co00015" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00015" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.Core.pdb" />
+      </Component>
+      <Component Id="Co00016" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00016" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.deps.json" />
+      </Component>
+      <Component Id="Co00017" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00017" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.dll" />
+      </Component>
+      <Component Id="Co00018" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00018" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.exe" />
+      </Component>
+      <Component Id="Co00019" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00019" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.Infrastructure.dll" />
+      </Component>
+      <Component Id="Co00020" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00020" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.Infrastructure.pdb" />
+      </Component>
+      <Component Id="Co00021" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00021" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.pdb" />
+      </Component>
+      <Component Id="Co00022" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00022" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\FormatFusion.runtimeconfig.json" />
+      </Component>
+      <Component Id="Co00023" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00023" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\hostfxr.dll" />
+      </Component>
+      <Component Id="Co00024" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00024" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\hostpolicy.dll" />
+      </Component>
+      <Component Id="Co00025" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00025" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Instances.dll" />
+      </Component>
+      <Component Id="Co00026" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00026" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\libSkiaSharp.dll" />
+      </Component>
+      <Component Id="Co00027" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00027" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Magick.Native-Q16-x64.dll" />
+      </Component>
+      <Component Id="Co00028" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00028" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Magick.NET-Q16-AnyCPU.dll" />
+      </Component>
+      <Component Id="Co00029" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00029" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Magick.NET.Core.dll" />
+      </Component>
+      <Component Id="Co00030" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00030" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.CSharp.dll" />
+      </Component>
+      <Component Id="Co00031" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00031" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.DiaSymReader.Native.amd64.dll" />
+      </Component>
+      <Component Id="Co00032" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00032" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+      </Component>
+      <Component Id="Co00033" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00033" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.Extensions.DependencyInjection.dll" />
+      </Component>
+      <Component Id="Co00034" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00034" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.Toolkit.Uwp.Notifications.dll" />
+      </Component>
+      <Component Id="Co00035" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00035" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.VisualBasic.Core.dll" />
+      </Component>
+      <Component Id="Co00036" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00036" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.VisualBasic.dll" />
+      </Component>
+      <Component Id="Co00037" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00037" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.Win32.Primitives.dll" />
+      </Component>
+      <Component Id="Co00038" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00038" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.Win32.Registry.AccessControl.dll" />
+      </Component>
+      <Component Id="Co00039" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00039" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.Win32.Registry.dll" />
+      </Component>
+      <Component Id="Co00040" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00040" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.Win32.SystemEvents.dll" />
+      </Component>
+      <Component Id="Co00041" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00041" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Microsoft.Windows.SDK.NET.dll" />
+      </Component>
+      <Component Id="Co00042" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00042" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ModernWpf.Controls.dll" />
+      </Component>
+      <Component Id="Co00043" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00043" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ModernWpf.dll" />
+      </Component>
+      <Component Id="Co00044" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00044" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\mscordaccore.dll" />
+      </Component>
+      <Component Id="Co00045" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00045" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\mscordaccore_amd64_amd64_9.0.1826.31522.dll" />
+      </Component>
+      <Component Id="Co00046" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00046" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\mscordbi.dll" />
+      </Component>
+      <Component Id="Co00047" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00047" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\mscorlib.dll" />
+      </Component>
+      <Component Id="Co00048" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00048" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\mscorrc.dll" />
+      </Component>
+      <Component Id="Co00049" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00049" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\msquic.dll" />
+      </Component>
+      <Component Id="Co00050" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00050" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\netstandard.dll" />
+      </Component>
+      <Component Id="Co00051" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00051" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PenImc_cor3.dll" />
+      </Component>
+      <Component Id="Co00052" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00052" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationCore.dll" />
+      </Component>
+      <Component Id="Co00053" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00053" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework-SystemCore.dll" />
+      </Component>
+      <Component Id="Co00054" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00054" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework-SystemData.dll" />
+      </Component>
+      <Component Id="Co00055" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00055" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework-SystemDrawing.dll" />
+      </Component>
+      <Component Id="Co00056" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00056" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework-SystemXml.dll" />
+      </Component>
+      <Component Id="Co00057" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00057" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework-SystemXmlLinq.dll" />
+      </Component>
+      <Component Id="Co00058" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00058" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework.Aero.dll" />
+      </Component>
+      <Component Id="Co00059" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00059" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework.Aero2.dll" />
+      </Component>
+      <Component Id="Co00060" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00060" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework.AeroLite.dll" />
+      </Component>
+      <Component Id="Co00061" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00061" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework.Classic.dll" />
+      </Component>
+      <Component Id="Co00062" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00062" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework.dll" />
+      </Component>
+      <Component Id="Co00063" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00063" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework.Fluent.dll" />
+      </Component>
+      <Component Id="Co00064" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00064" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework.Luna.dll" />
+      </Component>
+      <Component Id="Co00065" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00065" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationFramework.Royale.dll" />
+      </Component>
+      <Component Id="Co00066" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00066" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationNative_cor3.dll" />
+      </Component>
+      <Component Id="Co00067" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00067" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\PresentationUI.dll" />
+      </Component>
+      <Component Id="Co00068" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00068" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ReachFramework.dll" />
+      </Component>
+      <Component Id="Co00069" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00069" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Serilog.dll" />
+      </Component>
+      <Component Id="Co00070" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00070" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Serilog.Sinks.File.dll" />
+      </Component>
+      <Component Id="Co00071" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00071" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\SevenZipExtractor.dll" />
+      </Component>
+      <Component Id="Co00072" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00072" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\SharpCompress.dll" />
+      </Component>
+      <Component Id="Co00073" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00073" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\SkiaSharp.dll" />
+      </Component>
+      <Component Id="Co00074" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00074" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.AppContext.dll" />
+      </Component>
+      <Component Id="Co00075" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00075" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Buffers.dll" />
+      </Component>
+      <Component Id="Co00076" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00076" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.CodeDom.dll" />
+      </Component>
+      <Component Id="Co00077" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00077" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Collections.Concurrent.dll" />
+      </Component>
+      <Component Id="Co00078" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00078" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Collections.dll" />
+      </Component>
+      <Component Id="Co00079" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00079" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Collections.Immutable.dll" />
+      </Component>
+      <Component Id="Co00080" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00080" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Collections.NonGeneric.dll" />
+      </Component>
+      <Component Id="Co00081" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00081" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Collections.Specialized.dll" />
+      </Component>
+      <Component Id="Co00082" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00082" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.ComponentModel.Annotations.dll" />
+      </Component>
+      <Component Id="Co00083" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00083" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.ComponentModel.DataAnnotations.dll" />
+      </Component>
+      <Component Id="Co00084" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00084" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.ComponentModel.dll" />
+      </Component>
+      <Component Id="Co00085" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00085" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.ComponentModel.EventBasedAsync.dll" />
+      </Component>
+      <Component Id="Co00086" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00086" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.ComponentModel.Primitives.dll" />
+      </Component>
+      <Component Id="Co00087" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00087" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.ComponentModel.TypeConverter.dll" />
+      </Component>
+      <Component Id="Co00088" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00088" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Configuration.ConfigurationManager.dll" />
+      </Component>
+      <Component Id="Co00089" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00089" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Configuration.dll" />
+      </Component>
+      <Component Id="Co00090" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00090" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Console.dll" />
+      </Component>
+      <Component Id="Co00091" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00091" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Core.dll" />
+      </Component>
+      <Component Id="Co00092" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00092" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Data.Common.dll" />
+      </Component>
+      <Component Id="Co00093" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00093" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Data.DataSetExtensions.dll" />
+      </Component>
+      <Component Id="Co00094" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00094" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Data.dll" />
+      </Component>
+      <Component Id="Co00095" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00095" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.Contracts.dll" />
+      </Component>
+      <Component Id="Co00096" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00096" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.Debug.dll" />
+      </Component>
+      <Component Id="Co00097" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00097" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.DiagnosticSource.dll" />
+      </Component>
+      <Component Id="Co00098" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00098" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.EventLog.dll" />
+      </Component>
+      <Component Id="Co00099" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00099" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.EventLog.Messages.dll" />
+      </Component>
+      <Component Id="Co00100" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00100" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.FileVersionInfo.dll" />
+      </Component>
+      <Component Id="Co00101" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00101" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.PerformanceCounter.dll" />
+      </Component>
+      <Component Id="Co00102" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00102" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.Process.dll" />
+      </Component>
+      <Component Id="Co00103" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00103" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.StackTrace.dll" />
+      </Component>
+      <Component Id="Co00104" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00104" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.TextWriterTraceListener.dll" />
+      </Component>
+      <Component Id="Co00105" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00105" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.Tools.dll" />
+      </Component>
+      <Component Id="Co00106" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00106" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.TraceSource.dll" />
+      </Component>
+      <Component Id="Co00107" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00107" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Diagnostics.Tracing.dll" />
+      </Component>
+      <Component Id="Co00108" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00108" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.DirectoryServices.dll" />
+      </Component>
+      <Component Id="Co00109" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00109" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.dll" />
+      </Component>
+      <Component Id="Co00110" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00110" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Drawing.Common.dll" />
+      </Component>
+      <Component Id="Co00111" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00111" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Drawing.dll" />
+      </Component>
+      <Component Id="Co00112" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00112" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Drawing.Primitives.dll" />
+      </Component>
+      <Component Id="Co00113" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00113" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Dynamic.Runtime.dll" />
+      </Component>
+      <Component Id="Co00114" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00114" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Formats.Asn1.dll" />
+      </Component>
+      <Component Id="Co00115" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00115" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Formats.Nrbf.dll" />
+      </Component>
+      <Component Id="Co00116" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00116" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Formats.Tar.dll" />
+      </Component>
+      <Component Id="Co00117" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00117" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Globalization.Calendars.dll" />
+      </Component>
+      <Component Id="Co00118" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00118" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Globalization.dll" />
+      </Component>
+      <Component Id="Co00119" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00119" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Globalization.Extensions.dll" />
+      </Component>
+      <Component Id="Co00120" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00120" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.Compression.Brotli.dll" />
+      </Component>
+      <Component Id="Co00121" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00121" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.Compression.dll" />
+      </Component>
+      <Component Id="Co00122" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00122" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.Compression.FileSystem.dll" />
+      </Component>
+      <Component Id="Co00123" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00123" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.Compression.Native.dll" />
+      </Component>
+      <Component Id="Co00124" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00124" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.Compression.ZipFile.dll" />
+      </Component>
+      <Component Id="Co00125" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00125" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.dll" />
+      </Component>
+      <Component Id="Co00126" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00126" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.FileSystem.AccessControl.dll" />
+      </Component>
+      <Component Id="Co00127" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00127" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.FileSystem.dll" />
+      </Component>
+      <Component Id="Co00128" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00128" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.FileSystem.DriveInfo.dll" />
+      </Component>
+      <Component Id="Co00129" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00129" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.FileSystem.Primitives.dll" />
+      </Component>
+      <Component Id="Co00130" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00130" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.FileSystem.Watcher.dll" />
+      </Component>
+      <Component Id="Co00131" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00131" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.IsolatedStorage.dll" />
+      </Component>
+      <Component Id="Co00132" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00132" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.MemoryMappedFiles.dll" />
+      </Component>
+      <Component Id="Co00133" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00133" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.Packaging.dll" />
+      </Component>
+      <Component Id="Co00134" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00134" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.Pipelines.dll" />
+      </Component>
+      <Component Id="Co00135" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00135" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.Pipes.AccessControl.dll" />
+      </Component>
+      <Component Id="Co00136" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00136" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.Pipes.dll" />
+      </Component>
+      <Component Id="Co00137" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00137" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.IO.UnmanagedMemoryStream.dll" />
+      </Component>
+      <Component Id="Co00138" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00138" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Linq.dll" />
+      </Component>
+      <Component Id="Co00139" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00139" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Linq.Expressions.dll" />
+      </Component>
+      <Component Id="Co00140" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00140" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Linq.Parallel.dll" />
+      </Component>
+      <Component Id="Co00141" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00141" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Linq.Queryable.dll" />
+      </Component>
+      <Component Id="Co00142" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00142" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Management.dll" />
+      </Component>
+      <Component Id="Co00143" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00143" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Memory.dll" />
+      </Component>
+      <Component Id="Co00144" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00144" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.dll" />
+      </Component>
+      <Component Id="Co00145" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00145" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.Http.dll" />
+      </Component>
+      <Component Id="Co00146" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00146" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.Http.Json.dll" />
+      </Component>
+      <Component Id="Co00147" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00147" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.HttpListener.dll" />
+      </Component>
+      <Component Id="Co00148" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00148" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.Mail.dll" />
+      </Component>
+      <Component Id="Co00149" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00149" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.NameResolution.dll" />
+      </Component>
+      <Component Id="Co00150" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00150" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.NetworkInformation.dll" />
+      </Component>
+      <Component Id="Co00151" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00151" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.Ping.dll" />
+      </Component>
+      <Component Id="Co00152" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00152" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.Primitives.dll" />
+      </Component>
+      <Component Id="Co00153" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00153" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.Quic.dll" />
+      </Component>
+      <Component Id="Co00154" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00154" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.Requests.dll" />
+      </Component>
+      <Component Id="Co00155" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00155" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.Security.dll" />
+      </Component>
+      <Component Id="Co00156" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00156" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.ServicePoint.dll" />
+      </Component>
+      <Component Id="Co00157" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00157" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.Sockets.dll" />
+      </Component>
+      <Component Id="Co00158" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00158" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.WebClient.dll" />
+      </Component>
+      <Component Id="Co00159" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00159" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.WebHeaderCollection.dll" />
+      </Component>
+      <Component Id="Co00160" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00160" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.WebProxy.dll" />
+      </Component>
+      <Component Id="Co00161" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00161" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.WebSockets.Client.dll" />
+      </Component>
+      <Component Id="Co00162" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00162" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Net.WebSockets.dll" />
+      </Component>
+      <Component Id="Co00163" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00163" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Numerics.dll" />
+      </Component>
+      <Component Id="Co00164" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00164" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Numerics.Vectors.dll" />
+      </Component>
+      <Component Id="Co00165" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00165" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.ObjectModel.dll" />
+      </Component>
+      <Component Id="Co00166" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00166" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Printing.dll" />
+      </Component>
+      <Component Id="Co00167" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00167" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Private.CoreLib.dll" />
+      </Component>
+      <Component Id="Co00168" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00168" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Private.DataContractSerialization.dll" />
+      </Component>
+      <Component Id="Co00169" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00169" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Private.Uri.dll" />
+      </Component>
+      <Component Id="Co00170" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00170" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Private.Xml.dll" />
+      </Component>
+      <Component Id="Co00171" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00171" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Private.Xml.Linq.dll" />
+      </Component>
+      <Component Id="Co00172" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00172" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Reflection.DispatchProxy.dll" />
+      </Component>
+      <Component Id="Co00173" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00173" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Reflection.dll" />
+      </Component>
+      <Component Id="Co00174" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00174" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Reflection.Emit.dll" />
+      </Component>
+      <Component Id="Co00175" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00175" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Reflection.Emit.ILGeneration.dll" />
+      </Component>
+      <Component Id="Co00176" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00176" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Reflection.Emit.Lightweight.dll" />
+      </Component>
+      <Component Id="Co00177" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00177" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Reflection.Extensions.dll" />
+      </Component>
+      <Component Id="Co00178" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00178" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Reflection.Metadata.dll" />
+      </Component>
+      <Component Id="Co00179" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00179" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Reflection.Primitives.dll" />
+      </Component>
+      <Component Id="Co00180" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00180" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Reflection.TypeExtensions.dll" />
+      </Component>
+      <Component Id="Co00181" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00181" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Resources.Extensions.dll" />
+      </Component>
+      <Component Id="Co00182" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00182" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Resources.Reader.dll" />
+      </Component>
+      <Component Id="Co00183" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00183" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Resources.ResourceManager.dll" />
+      </Component>
+      <Component Id="Co00184" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00184" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Resources.Writer.dll" />
+      </Component>
+      <Component Id="Co00185" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00185" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.CompilerServices.Unsafe.dll" />
+      </Component>
+      <Component Id="Co00186" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00186" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.CompilerServices.VisualC.dll" />
+      </Component>
+      <Component Id="Co00187" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00187" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.dll" />
+      </Component>
+      <Component Id="Co00188" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00188" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.Extensions.dll" />
+      </Component>
+      <Component Id="Co00189" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00189" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.Handles.dll" />
+      </Component>
+      <Component Id="Co00190" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00190" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.InteropServices.dll" />
+      </Component>
+      <Component Id="Co00191" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00191" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.InteropServices.JavaScript.dll" />
+      </Component>
+      <Component Id="Co00192" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00192" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.InteropServices.RuntimeInformation.dll" />
+      </Component>
+      <Component Id="Co00193" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00193" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.Intrinsics.dll" />
+      </Component>
+      <Component Id="Co00194" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00194" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.Loader.dll" />
+      </Component>
+      <Component Id="Co00195" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00195" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.Numerics.dll" />
+      </Component>
+      <Component Id="Co00196" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00196" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.Serialization.dll" />
+      </Component>
+      <Component Id="Co00197" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00197" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.Serialization.Formatters.dll" />
+      </Component>
+      <Component Id="Co00198" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00198" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.Serialization.Json.dll" />
+      </Component>
+      <Component Id="Co00199" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00199" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.Serialization.Primitives.dll" />
+      </Component>
+      <Component Id="Co00200" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00200" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Runtime.Serialization.Xml.dll" />
+      </Component>
+      <Component Id="Co00201" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00201" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.AccessControl.dll" />
+      </Component>
+      <Component Id="Co00202" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00202" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Claims.dll" />
+      </Component>
+      <Component Id="Co00203" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00203" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.Algorithms.dll" />
+      </Component>
+      <Component Id="Co00204" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00204" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.Cng.dll" />
+      </Component>
+      <Component Id="Co00205" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00205" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.Csp.dll" />
+      </Component>
+      <Component Id="Co00206" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00206" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.dll" />
+      </Component>
+      <Component Id="Co00207" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00207" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.Encoding.dll" />
+      </Component>
+      <Component Id="Co00208" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00208" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.OpenSsl.dll" />
+      </Component>
+      <Component Id="Co00209" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00209" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.Pkcs.dll" />
+      </Component>
+      <Component Id="Co00210" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00210" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.Primitives.dll" />
+      </Component>
+      <Component Id="Co00211" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00211" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.ProtectedData.dll" />
+      </Component>
+      <Component Id="Co00212" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00212" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.X509Certificates.dll" />
+      </Component>
+      <Component Id="Co00213" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00213" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Cryptography.Xml.dll" />
+      </Component>
+      <Component Id="Co00214" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00214" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.dll" />
+      </Component>
+      <Component Id="Co00215" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00215" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Permissions.dll" />
+      </Component>
+      <Component Id="Co00216" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00216" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Principal.dll" />
+      </Component>
+      <Component Id="Co00217" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00217" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.Principal.Windows.dll" />
+      </Component>
+      <Component Id="Co00218" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00218" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Security.SecureString.dll" />
+      </Component>
+      <Component Id="Co00219" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00219" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.ServiceModel.Web.dll" />
+      </Component>
+      <Component Id="Co00220" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00220" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.ServiceProcess.dll" />
+      </Component>
+      <Component Id="Co00221" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00221" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Text.Encoding.CodePages.dll" />
+      </Component>
+      <Component Id="Co00222" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00222" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Text.Encoding.dll" />
+      </Component>
+      <Component Id="Co00223" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00223" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Text.Encoding.Extensions.dll" />
+      </Component>
+      <Component Id="Co00224" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00224" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Text.Encodings.Web.dll" />
+      </Component>
+      <Component Id="Co00225" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00225" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Text.Json.dll" />
+      </Component>
+      <Component Id="Co00226" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00226" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Text.RegularExpressions.dll" />
+      </Component>
+      <Component Id="Co00227" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00227" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.AccessControl.dll" />
+      </Component>
+      <Component Id="Co00228" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00228" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.Channels.dll" />
+      </Component>
+      <Component Id="Co00229" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00229" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.dll" />
+      </Component>
+      <Component Id="Co00230" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00230" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.Overlapped.dll" />
+      </Component>
+      <Component Id="Co00231" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00231" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.Tasks.Dataflow.dll" />
+      </Component>
+      <Component Id="Co00232" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00232" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.Tasks.dll" />
+      </Component>
+      <Component Id="Co00233" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00233" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.Tasks.Extensions.dll" />
+      </Component>
+      <Component Id="Co00234" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00234" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.Tasks.Parallel.dll" />
+      </Component>
+      <Component Id="Co00235" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00235" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.Thread.dll" />
+      </Component>
+      <Component Id="Co00236" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00236" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.ThreadPool.dll" />
+      </Component>
+      <Component Id="Co00237" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00237" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Threading.Timer.dll" />
+      </Component>
+      <Component Id="Co00238" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00238" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Transactions.dll" />
+      </Component>
+      <Component Id="Co00239" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00239" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Transactions.Local.dll" />
+      </Component>
+      <Component Id="Co00240" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00240" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.ValueTuple.dll" />
+      </Component>
+      <Component Id="Co00241" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00241" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Web.dll" />
+      </Component>
+      <Component Id="Co00242" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00242" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Web.HttpUtility.dll" />
+      </Component>
+      <Component Id="Co00243" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00243" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Windows.Controls.Ribbon.dll" />
+      </Component>
+      <Component Id="Co00244" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00244" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Windows.dll" />
+      </Component>
+      <Component Id="Co00245" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00245" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Windows.Extensions.dll" />
+      </Component>
+      <Component Id="Co00246" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00246" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Windows.Input.Manipulations.dll" />
+      </Component>
+      <Component Id="Co00247" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00247" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Windows.Presentation.dll" />
+      </Component>
+      <Component Id="Co00248" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00248" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Xaml.dll" />
+      </Component>
+      <Component Id="Co00249" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00249" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Xml.dll" />
+      </Component>
+      <Component Id="Co00250" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00250" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Xml.Linq.dll" />
+      </Component>
+      <Component Id="Co00251" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00251" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Xml.ReaderWriter.dll" />
+      </Component>
+      <Component Id="Co00252" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00252" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Xml.Serialization.dll" />
+      </Component>
+      <Component Id="Co00253" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00253" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Xml.XDocument.dll" />
+      </Component>
+      <Component Id="Co00254" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00254" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Xml.XmlDocument.dll" />
+      </Component>
+      <Component Id="Co00255" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00255" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Xml.XmlSerializer.dll" />
+      </Component>
+      <Component Id="Co00256" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00256" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Xml.XPath.dll" />
+      </Component>
+      <Component Id="Co00257" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00257" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\System.Xml.XPath.XDocument.dll" />
+      </Component>
+      <Component Id="Co00258" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00258" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UglyToad.PdfPig.Core.dll" />
+      </Component>
+      <Component Id="Co00259" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00259" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UglyToad.PdfPig.dll" />
+      </Component>
+      <Component Id="Co00260" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00260" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UglyToad.PdfPig.DocumentLayoutAnalysis.dll" />
+      </Component>
+      <Component Id="Co00261" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00261" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UglyToad.PdfPig.Fonts.dll" />
+      </Component>
+      <Component Id="Co00262" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00262" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UglyToad.PdfPig.Package.dll" />
+      </Component>
+      <Component Id="Co00263" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00263" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UglyToad.PdfPig.Tokenization.dll" />
+      </Component>
+      <Component Id="Co00264" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00264" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UglyToad.PdfPig.Tokens.dll" />
+      </Component>
+      <Component Id="Co00265" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00265" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UIAutomationClient.dll" />
+      </Component>
+      <Component Id="Co00266" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00266" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UIAutomationClientSideProviders.dll" />
+      </Component>
+      <Component Id="Co00267" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00267" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UIAutomationProvider.dll" />
+      </Component>
+      <Component Id="Co00268" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00268" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\UIAutomationTypes.dll" />
+      </Component>
+      <Component Id="Co00269" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00269" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\vcruntime140_cor3.dll" />
+      </Component>
+      <Component Id="Co00270" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00270" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\WindowsBase.dll" />
+      </Component>
+      <Component Id="Co00271" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00271" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\WinRT.Runtime.dll" />
+      </Component>
+      <Component Id="Co00272" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00272" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\wpfgfx_cor3.dll" />
+      </Component>
+      <Component Id="Co00273" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00273" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Xceed.Document.NET.dll" />
+      </Component>
+      <Component Id="Co00274" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00274" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Xceed.Drawing.NET.dll" />
+      </Component>
+      <Component Id="Co00275" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00275" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Xceed.Words.NET.dll" />
+      </Component>
+      <Component Id="Co00276" Directory="INSTALLFOLDER" Guid="*">
+        <File Id="Fl00276" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ZstdSharp.dll" />
+      </Component>
+      <Component Id="Co00277" Directory="Dir0001" Guid="*">
+        <File Id="Fl00277" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\af-ZA\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00278" Directory="Dir0001" Guid="*">
+        <File Id="Fl00278" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\af-ZA\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00279" Directory="Dir0002" Guid="*">
+        <File Id="Fl00279" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\am-ET\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00280" Directory="Dir0002" Guid="*">
+        <File Id="Fl00280" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\am-ET\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00281" Directory="Dir0003" Guid="*">
+        <File Id="Fl00281" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ar-SA\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00282" Directory="Dir0003" Guid="*">
+        <File Id="Fl00282" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ar-SA\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00283" Directory="Dir0004" Guid="*">
+        <File Id="Fl00283" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\az-Latn-AZ\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00284" Directory="Dir0004" Guid="*">
+        <File Id="Fl00284" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\az-Latn-AZ\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00285" Directory="Dir0005" Guid="*">
+        <File Id="Fl00285" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\be-BY\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00286" Directory="Dir0005" Guid="*">
+        <File Id="Fl00286" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\be-BY\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00287" Directory="Dir0006" Guid="*">
+        <File Id="Fl00287" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\bg-BG\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00288" Directory="Dir0006" Guid="*">
+        <File Id="Fl00288" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\bg-BG\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00289" Directory="Dir0007" Guid="*">
+        <File Id="Fl00289" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\bn-BD\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00290" Directory="Dir0007" Guid="*">
+        <File Id="Fl00290" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\bn-BD\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00291" Directory="Dir0008" Guid="*">
+        <File Id="Fl00291" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\bs-Latn-BA\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00292" Directory="Dir0008" Guid="*">
+        <File Id="Fl00292" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\bs-Latn-BA\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00293" Directory="Dir0009" Guid="*">
+        <File Id="Fl00293" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ca-ES\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00294" Directory="Dir0009" Guid="*">
+        <File Id="Fl00294" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ca-ES\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00295" Directory="Dir0010" Guid="*">
+        <File Id="Fl00295" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00296" Directory="Dir0010" Guid="*">
+        <File Id="Fl00296" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00297" Directory="Dir0010" Guid="*">
+        <File Id="Fl00297" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00298" Directory="Dir0010" Guid="*">
+        <File Id="Fl00298" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00299" Directory="Dir0010" Guid="*">
+        <File Id="Fl00299" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00300" Directory="Dir0010" Guid="*">
+        <File Id="Fl00300" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00301" Directory="Dir0010" Guid="*">
+        <File Id="Fl00301" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00302" Directory="Dir0010" Guid="*">
+        <File Id="Fl00302" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00303" Directory="Dir0010" Guid="*">
+        <File Id="Fl00303" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00304" Directory="Dir0010" Guid="*">
+        <File Id="Fl00304" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00305" Directory="Dir0010" Guid="*">
+        <File Id="Fl00305" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00306" Directory="Dir0010" Guid="*">
+        <File Id="Fl00306" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00307" Directory="Dir0011" Guid="*">
+        <File Id="Fl00307" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs-CZ\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00308" Directory="Dir0011" Guid="*">
+        <File Id="Fl00308" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\cs-CZ\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00309" Directory="Dir0012" Guid="*">
+        <File Id="Fl00309" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\da-DK\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00310" Directory="Dir0012" Guid="*">
+        <File Id="Fl00310" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\da-DK\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00311" Directory="Dir0013" Guid="*">
+        <File Id="Fl00311" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00312" Directory="Dir0013" Guid="*">
+        <File Id="Fl00312" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00313" Directory="Dir0013" Guid="*">
+        <File Id="Fl00313" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00314" Directory="Dir0013" Guid="*">
+        <File Id="Fl00314" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00315" Directory="Dir0013" Guid="*">
+        <File Id="Fl00315" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00316" Directory="Dir0013" Guid="*">
+        <File Id="Fl00316" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00317" Directory="Dir0013" Guid="*">
+        <File Id="Fl00317" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00318" Directory="Dir0013" Guid="*">
+        <File Id="Fl00318" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00319" Directory="Dir0013" Guid="*">
+        <File Id="Fl00319" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00320" Directory="Dir0013" Guid="*">
+        <File Id="Fl00320" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00321" Directory="Dir0013" Guid="*">
+        <File Id="Fl00321" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00322" Directory="Dir0013" Guid="*">
+        <File Id="Fl00322" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00323" Directory="Dir0014" Guid="*">
+        <File Id="Fl00323" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de-DE\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00324" Directory="Dir0014" Guid="*">
+        <File Id="Fl00324" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\de-DE\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00325" Directory="Dir0015" Guid="*">
+        <File Id="Fl00325" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\el-GR\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00326" Directory="Dir0015" Guid="*">
+        <File Id="Fl00326" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\el-GR\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00327" Directory="Dir0016" Guid="*">
+        <File Id="Fl00327" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\en-GB\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00328" Directory="Dir0016" Guid="*">
+        <File Id="Fl00328" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\en-GB\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00329" Directory="Dir0017" Guid="*">
+        <File Id="Fl00329" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00330" Directory="Dir0017" Guid="*">
+        <File Id="Fl00330" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00331" Directory="Dir0017" Guid="*">
+        <File Id="Fl00331" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00332" Directory="Dir0017" Guid="*">
+        <File Id="Fl00332" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00333" Directory="Dir0017" Guid="*">
+        <File Id="Fl00333" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00334" Directory="Dir0017" Guid="*">
+        <File Id="Fl00334" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00335" Directory="Dir0017" Guid="*">
+        <File Id="Fl00335" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00336" Directory="Dir0017" Guid="*">
+        <File Id="Fl00336" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00337" Directory="Dir0017" Guid="*">
+        <File Id="Fl00337" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00338" Directory="Dir0017" Guid="*">
+        <File Id="Fl00338" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00339" Directory="Dir0017" Guid="*">
+        <File Id="Fl00339" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00340" Directory="Dir0017" Guid="*">
+        <File Id="Fl00340" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00341" Directory="Dir0018" Guid="*">
+        <File Id="Fl00341" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es-ES\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00342" Directory="Dir0018" Guid="*">
+        <File Id="Fl00342" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es-ES\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00343" Directory="Dir0019" Guid="*">
+        <File Id="Fl00343" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es-MX\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00344" Directory="Dir0019" Guid="*">
+        <File Id="Fl00344" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\es-MX\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00345" Directory="Dir0020" Guid="*">
+        <File Id="Fl00345" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\et-EE\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00346" Directory="Dir0020" Guid="*">
+        <File Id="Fl00346" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\et-EE\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00347" Directory="Dir0021" Guid="*">
+        <File Id="Fl00347" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\eu-ES\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00348" Directory="Dir0021" Guid="*">
+        <File Id="Fl00348" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\eu-ES\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00349" Directory="Dir0022" Guid="*">
+        <File Id="Fl00349" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fa-IR\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00350" Directory="Dir0022" Guid="*">
+        <File Id="Fl00350" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fa-IR\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00351" Directory="Dir0023" Guid="*">
+        <File Id="Fl00351" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fi-FI\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00352" Directory="Dir0023" Guid="*">
+        <File Id="Fl00352" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fi-FI\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00353" Directory="Dir0024" Guid="*">
+        <File Id="Fl00353" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fil-PH\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00354" Directory="Dir0024" Guid="*">
+        <File Id="Fl00354" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fil-PH\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00355" Directory="Dir0025" Guid="*">
+        <File Id="Fl00355" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00356" Directory="Dir0025" Guid="*">
+        <File Id="Fl00356" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00357" Directory="Dir0025" Guid="*">
+        <File Id="Fl00357" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00358" Directory="Dir0025" Guid="*">
+        <File Id="Fl00358" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00359" Directory="Dir0025" Guid="*">
+        <File Id="Fl00359" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00360" Directory="Dir0025" Guid="*">
+        <File Id="Fl00360" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00361" Directory="Dir0025" Guid="*">
+        <File Id="Fl00361" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00362" Directory="Dir0025" Guid="*">
+        <File Id="Fl00362" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00363" Directory="Dir0025" Guid="*">
+        <File Id="Fl00363" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00364" Directory="Dir0025" Guid="*">
+        <File Id="Fl00364" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00365" Directory="Dir0025" Guid="*">
+        <File Id="Fl00365" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00366" Directory="Dir0025" Guid="*">
+        <File Id="Fl00366" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00367" Directory="Dir0026" Guid="*">
+        <File Id="Fl00367" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr-CA\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00368" Directory="Dir0026" Guid="*">
+        <File Id="Fl00368" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr-CA\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00369" Directory="Dir0027" Guid="*">
+        <File Id="Fl00369" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr-FR\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00370" Directory="Dir0027" Guid="*">
+        <File Id="Fl00370" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\fr-FR\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00371" Directory="Dir0028" Guid="*">
+        <File Id="Fl00371" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\gl-ES\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00372" Directory="Dir0028" Guid="*">
+        <File Id="Fl00372" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\gl-ES\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00373" Directory="Dir0029" Guid="*">
+        <File Id="Fl00373" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\he-IL\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00374" Directory="Dir0029" Guid="*">
+        <File Id="Fl00374" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\he-IL\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00375" Directory="Dir0030" Guid="*">
+        <File Id="Fl00375" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\hi-IN\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00376" Directory="Dir0030" Guid="*">
+        <File Id="Fl00376" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\hi-IN\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00377" Directory="Dir0031" Guid="*">
+        <File Id="Fl00377" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\hr-HR\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00378" Directory="Dir0031" Guid="*">
+        <File Id="Fl00378" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\hr-HR\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00379" Directory="Dir0032" Guid="*">
+        <File Id="Fl00379" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\hu-HU\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00380" Directory="Dir0032" Guid="*">
+        <File Id="Fl00380" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\hu-HU\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00381" Directory="Dir0033" Guid="*">
+        <File Id="Fl00381" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\id-ID\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00382" Directory="Dir0033" Guid="*">
+        <File Id="Fl00382" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\id-ID\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00383" Directory="Dir0034" Guid="*">
+        <File Id="Fl00383" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\is-IS\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00384" Directory="Dir0034" Guid="*">
+        <File Id="Fl00384" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\is-IS\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00385" Directory="Dir0035" Guid="*">
+        <File Id="Fl00385" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00386" Directory="Dir0035" Guid="*">
+        <File Id="Fl00386" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00387" Directory="Dir0035" Guid="*">
+        <File Id="Fl00387" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00388" Directory="Dir0035" Guid="*">
+        <File Id="Fl00388" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00389" Directory="Dir0035" Guid="*">
+        <File Id="Fl00389" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00390" Directory="Dir0035" Guid="*">
+        <File Id="Fl00390" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00391" Directory="Dir0035" Guid="*">
+        <File Id="Fl00391" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00392" Directory="Dir0035" Guid="*">
+        <File Id="Fl00392" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00393" Directory="Dir0035" Guid="*">
+        <File Id="Fl00393" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00394" Directory="Dir0035" Guid="*">
+        <File Id="Fl00394" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00395" Directory="Dir0035" Guid="*">
+        <File Id="Fl00395" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00396" Directory="Dir0035" Guid="*">
+        <File Id="Fl00396" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00397" Directory="Dir0036" Guid="*">
+        <File Id="Fl00397" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it-IT\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00398" Directory="Dir0036" Guid="*">
+        <File Id="Fl00398" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\it-IT\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00399" Directory="Dir0037" Guid="*">
+        <File Id="Fl00399" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00400" Directory="Dir0037" Guid="*">
+        <File Id="Fl00400" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00401" Directory="Dir0037" Guid="*">
+        <File Id="Fl00401" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00402" Directory="Dir0037" Guid="*">
+        <File Id="Fl00402" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00403" Directory="Dir0037" Guid="*">
+        <File Id="Fl00403" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00404" Directory="Dir0037" Guid="*">
+        <File Id="Fl00404" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00405" Directory="Dir0037" Guid="*">
+        <File Id="Fl00405" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00406" Directory="Dir0037" Guid="*">
+        <File Id="Fl00406" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00407" Directory="Dir0037" Guid="*">
+        <File Id="Fl00407" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00408" Directory="Dir0037" Guid="*">
+        <File Id="Fl00408" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00409" Directory="Dir0037" Guid="*">
+        <File Id="Fl00409" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00410" Directory="Dir0037" Guid="*">
+        <File Id="Fl00410" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00411" Directory="Dir0038" Guid="*">
+        <File Id="Fl00411" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja-JP\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00412" Directory="Dir0038" Guid="*">
+        <File Id="Fl00412" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ja-JP\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00413" Directory="Dir0039" Guid="*">
+        <File Id="Fl00413" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ka-GE\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00414" Directory="Dir0039" Guid="*">
+        <File Id="Fl00414" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ka-GE\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00415" Directory="Dir0040" Guid="*">
+        <File Id="Fl00415" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\kk-KZ\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00416" Directory="Dir0040" Guid="*">
+        <File Id="Fl00416" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\kk-KZ\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00417" Directory="Dir0041" Guid="*">
+        <File Id="Fl00417" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\km-KH\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00418" Directory="Dir0041" Guid="*">
+        <File Id="Fl00418" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\km-KH\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00419" Directory="Dir0042" Guid="*">
+        <File Id="Fl00419" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\kn-IN\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00420" Directory="Dir0042" Guid="*">
+        <File Id="Fl00420" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\kn-IN\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00421" Directory="Dir0043" Guid="*">
+        <File Id="Fl00421" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00422" Directory="Dir0043" Guid="*">
+        <File Id="Fl00422" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00423" Directory="Dir0043" Guid="*">
+        <File Id="Fl00423" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00424" Directory="Dir0043" Guid="*">
+        <File Id="Fl00424" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00425" Directory="Dir0043" Guid="*">
+        <File Id="Fl00425" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00426" Directory="Dir0043" Guid="*">
+        <File Id="Fl00426" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00427" Directory="Dir0043" Guid="*">
+        <File Id="Fl00427" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00428" Directory="Dir0043" Guid="*">
+        <File Id="Fl00428" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00429" Directory="Dir0043" Guid="*">
+        <File Id="Fl00429" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00430" Directory="Dir0043" Guid="*">
+        <File Id="Fl00430" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00431" Directory="Dir0043" Guid="*">
+        <File Id="Fl00431" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00432" Directory="Dir0043" Guid="*">
+        <File Id="Fl00432" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00433" Directory="Dir0044" Guid="*">
+        <File Id="Fl00433" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko-KR\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00434" Directory="Dir0044" Guid="*">
+        <File Id="Fl00434" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ko-KR\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00435" Directory="Dir0045" Guid="*">
+        <File Id="Fl00435" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\lo-LA\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00436" Directory="Dir0045" Guid="*">
+        <File Id="Fl00436" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\lo-LA\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00437" Directory="Dir0046" Guid="*">
+        <File Id="Fl00437" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\lt-LT\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00438" Directory="Dir0046" Guid="*">
+        <File Id="Fl00438" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\lt-LT\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00439" Directory="Dir0047" Guid="*">
+        <File Id="Fl00439" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\lv-LV\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00440" Directory="Dir0047" Guid="*">
+        <File Id="Fl00440" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\lv-LV\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00441" Directory="Dir0048" Guid="*">
+        <File Id="Fl00441" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\mk-MK\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00442" Directory="Dir0048" Guid="*">
+        <File Id="Fl00442" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\mk-MK\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00443" Directory="Dir0049" Guid="*">
+        <File Id="Fl00443" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ml-IN\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00444" Directory="Dir0049" Guid="*">
+        <File Id="Fl00444" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ml-IN\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00445" Directory="Dir0050" Guid="*">
+        <File Id="Fl00445" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ms-MY\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00446" Directory="Dir0050" Guid="*">
+        <File Id="Fl00446" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ms-MY\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00447" Directory="Dir0051" Guid="*">
+        <File Id="Fl00447" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\nb-NO\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00448" Directory="Dir0051" Guid="*">
+        <File Id="Fl00448" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\nb-NO\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00449" Directory="Dir0052" Guid="*">
+        <File Id="Fl00449" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\nl-NL\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00450" Directory="Dir0052" Guid="*">
+        <File Id="Fl00450" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\nl-NL\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00451" Directory="Dir0053" Guid="*">
+        <File Id="Fl00451" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\nn-NO\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00452" Directory="Dir0053" Guid="*">
+        <File Id="Fl00452" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\nn-NO\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00453" Directory="Dir0054" Guid="*">
+        <File Id="Fl00453" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00454" Directory="Dir0054" Guid="*">
+        <File Id="Fl00454" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00455" Directory="Dir0054" Guid="*">
+        <File Id="Fl00455" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00456" Directory="Dir0054" Guid="*">
+        <File Id="Fl00456" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00457" Directory="Dir0054" Guid="*">
+        <File Id="Fl00457" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00458" Directory="Dir0054" Guid="*">
+        <File Id="Fl00458" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00459" Directory="Dir0054" Guid="*">
+        <File Id="Fl00459" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00460" Directory="Dir0054" Guid="*">
+        <File Id="Fl00460" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00461" Directory="Dir0054" Guid="*">
+        <File Id="Fl00461" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00462" Directory="Dir0054" Guid="*">
+        <File Id="Fl00462" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00463" Directory="Dir0054" Guid="*">
+        <File Id="Fl00463" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00464" Directory="Dir0054" Guid="*">
+        <File Id="Fl00464" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00465" Directory="Dir0055" Guid="*">
+        <File Id="Fl00465" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl-PL\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00466" Directory="Dir0055" Guid="*">
+        <File Id="Fl00466" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pl-PL\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00467" Directory="Dir0056" Guid="*">
+        <File Id="Fl00467" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00468" Directory="Dir0056" Guid="*">
+        <File Id="Fl00468" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00469" Directory="Dir0056" Guid="*">
+        <File Id="Fl00469" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00470" Directory="Dir0056" Guid="*">
+        <File Id="Fl00470" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00471" Directory="Dir0056" Guid="*">
+        <File Id="Fl00471" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00472" Directory="Dir0056" Guid="*">
+        <File Id="Fl00472" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00473" Directory="Dir0056" Guid="*">
+        <File Id="Fl00473" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00474" Directory="Dir0056" Guid="*">
+        <File Id="Fl00474" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00475" Directory="Dir0056" Guid="*">
+        <File Id="Fl00475" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00476" Directory="Dir0056" Guid="*">
+        <File Id="Fl00476" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00477" Directory="Dir0056" Guid="*">
+        <File Id="Fl00477" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00478" Directory="Dir0056" Guid="*">
+        <File Id="Fl00478" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00479" Directory="Dir0056" Guid="*">
+        <File Id="Fl00479" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00480" Directory="Dir0056" Guid="*">
+        <File Id="Fl00480" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-BR\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00481" Directory="Dir0057" Guid="*">
+        <File Id="Fl00481" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-PT\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00482" Directory="Dir0057" Guid="*">
+        <File Id="Fl00482" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\pt-PT\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00483" Directory="Dir0058" Guid="*">
+        <File Id="Fl00483" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ro-RO\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00484" Directory="Dir0058" Guid="*">
+        <File Id="Fl00484" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ro-RO\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00485" Directory="Dir0059" Guid="*">
+        <File Id="Fl00485" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00486" Directory="Dir0059" Guid="*">
+        <File Id="Fl00486" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00487" Directory="Dir0059" Guid="*">
+        <File Id="Fl00487" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00488" Directory="Dir0059" Guid="*">
+        <File Id="Fl00488" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00489" Directory="Dir0059" Guid="*">
+        <File Id="Fl00489" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00490" Directory="Dir0059" Guid="*">
+        <File Id="Fl00490" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00491" Directory="Dir0059" Guid="*">
+        <File Id="Fl00491" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00492" Directory="Dir0059" Guid="*">
+        <File Id="Fl00492" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00493" Directory="Dir0059" Guid="*">
+        <File Id="Fl00493" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00494" Directory="Dir0059" Guid="*">
+        <File Id="Fl00494" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00495" Directory="Dir0059" Guid="*">
+        <File Id="Fl00495" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00496" Directory="Dir0059" Guid="*">
+        <File Id="Fl00496" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00497" Directory="Dir0060" Guid="*">
+        <File Id="Fl00497" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru-RU\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00498" Directory="Dir0060" Guid="*">
+        <File Id="Fl00498" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ru-RU\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00499" Directory="Dir0061" Guid="*">
+        <File Id="Fl00499" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sk-SK\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00500" Directory="Dir0061" Guid="*">
+        <File Id="Fl00500" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sk-SK\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00501" Directory="Dir0062" Guid="*">
+        <File Id="Fl00501" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sl-SI\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00502" Directory="Dir0062" Guid="*">
+        <File Id="Fl00502" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sl-SI\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00503" Directory="Dir0063" Guid="*">
+        <File Id="Fl00503" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sq-AL\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00504" Directory="Dir0063" Guid="*">
+        <File Id="Fl00504" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sq-AL\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00505" Directory="Dir0064" Guid="*">
+        <File Id="Fl00505" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sr-Latn-RS\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00506" Directory="Dir0064" Guid="*">
+        <File Id="Fl00506" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sr-Latn-RS\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00507" Directory="Dir0065" Guid="*">
+        <File Id="Fl00507" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sv-SE\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00508" Directory="Dir0065" Guid="*">
+        <File Id="Fl00508" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sv-SE\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00509" Directory="Dir0066" Guid="*">
+        <File Id="Fl00509" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sw-KE\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00510" Directory="Dir0066" Guid="*">
+        <File Id="Fl00510" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\sw-KE\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00511" Directory="Dir0067" Guid="*">
+        <File Id="Fl00511" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ta-IN\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00512" Directory="Dir0067" Guid="*">
+        <File Id="Fl00512" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\ta-IN\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00513" Directory="Dir0068" Guid="*">
+        <File Id="Fl00513" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\te-IN\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00514" Directory="Dir0068" Guid="*">
+        <File Id="Fl00514" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\te-IN\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00515" Directory="Dir0069" Guid="*">
+        <File Id="Fl00515" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\th-TH\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00516" Directory="Dir0069" Guid="*">
+        <File Id="Fl00516" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\th-TH\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00517" Directory="Dir0070" Guid="*">
+        <File Id="Fl00517" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Tools\ffmpeg.exe" />
+      </Component>
+      <Component Id="Co00518" Directory="Dir0070" Guid="*">
+        <File Id="Fl00518" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Tools\ffprobe.exe" />
+      </Component>
+      <Component Id="Co00519" Directory="Dir0070" Guid="*">
+        <File Id="Fl00519" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\Tools\pandoc.exe" />
+      </Component>
+      <Component Id="Co00520" Directory="Dir0071" Guid="*">
+        <File Id="Fl00520" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00521" Directory="Dir0071" Guid="*">
+        <File Id="Fl00521" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00522" Directory="Dir0071" Guid="*">
+        <File Id="Fl00522" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00523" Directory="Dir0071" Guid="*">
+        <File Id="Fl00523" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00524" Directory="Dir0071" Guid="*">
+        <File Id="Fl00524" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00525" Directory="Dir0071" Guid="*">
+        <File Id="Fl00525" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00526" Directory="Dir0071" Guid="*">
+        <File Id="Fl00526" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00527" Directory="Dir0071" Guid="*">
+        <File Id="Fl00527" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00528" Directory="Dir0071" Guid="*">
+        <File Id="Fl00528" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00529" Directory="Dir0071" Guid="*">
+        <File Id="Fl00529" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00530" Directory="Dir0071" Guid="*">
+        <File Id="Fl00530" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00531" Directory="Dir0071" Guid="*">
+        <File Id="Fl00531" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00532" Directory="Dir0072" Guid="*">
+        <File Id="Fl00532" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr-TR\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00533" Directory="Dir0072" Guid="*">
+        <File Id="Fl00533" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\tr-TR\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00534" Directory="Dir0073" Guid="*">
+        <File Id="Fl00534" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\uk-UA\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00535" Directory="Dir0073" Guid="*">
+        <File Id="Fl00535" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\uk-UA\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00536" Directory="Dir0074" Guid="*">
+        <File Id="Fl00536" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\uz-Latn-UZ\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00537" Directory="Dir0074" Guid="*">
+        <File Id="Fl00537" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\uz-Latn-UZ\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00538" Directory="Dir0075" Guid="*">
+        <File Id="Fl00538" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\vi-VN\ModernWpf.Controls.resources.dll" />
+      </Component>
+      <Component Id="Co00539" Directory="Dir0075" Guid="*">
+        <File Id="Fl00539" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\vi-VN\ModernWpf.resources.dll" />
+      </Component>
+      <Component Id="Co00540" Directory="Dir0076" Guid="*">
+        <File Id="Fl00540" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\x64\7z.dll" />
+      </Component>
+      <Component Id="Co00541" Directory="Dir0077" Guid="*">
+        <File Id="Fl00541" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\x86\7z.dll" />
+      </Component>
+      <Component Id="Co00542" Directory="Dir0078" Guid="*">
+        <File Id="Fl00542" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00543" Directory="Dir0078" Guid="*">
+        <File Id="Fl00543" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00544" Directory="Dir0078" Guid="*">
+        <File Id="Fl00544" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00545" Directory="Dir0078" Guid="*">
+        <File Id="Fl00545" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00546" Directory="Dir0078" Guid="*">
+        <File Id="Fl00546" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00547" Directory="Dir0078" Guid="*">
+        <File Id="Fl00547" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00548" Directory="Dir0078" Guid="*">
+        <File Id="Fl00548" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00549" Directory="Dir0078" Guid="*">
+        <File Id="Fl00549" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00550" Directory="Dir0078" Guid="*">
+        <File Id="Fl00550" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00551" Directory="Dir0078" Guid="*">
+        <File Id="Fl00551" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00552" Directory="Dir0078" Guid="*">
+        <File Id="Fl00552" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00553" Directory="Dir0078" Guid="*">
+        <File Id="Fl00553" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hans\WindowsBase.resources.dll" />
+      </Component>
+      <Component Id="Co00554" Directory="Dir0079" Guid="*">
+        <File Id="Fl00554" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\PresentationCore.resources.dll" />
+      </Component>
+      <Component Id="Co00555" Directory="Dir0079" Guid="*">
+        <File Id="Fl00555" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\PresentationFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00556" Directory="Dir0079" Guid="*">
+        <File Id="Fl00556" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\PresentationUI.resources.dll" />
+      </Component>
+      <Component Id="Co00557" Directory="Dir0079" Guid="*">
+        <File Id="Fl00557" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\ReachFramework.resources.dll" />
+      </Component>
+      <Component Id="Co00558" Directory="Dir0079" Guid="*">
+        <File Id="Fl00558" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\System.Windows.Controls.Ribbon.resources.dll" />
+      </Component>
+      <Component Id="Co00559" Directory="Dir0079" Guid="*">
+        <File Id="Fl00559" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\System.Windows.Input.Manipulations.resources.dll" />
+      </Component>
+      <Component Id="Co00560" Directory="Dir0079" Guid="*">
+        <File Id="Fl00560" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\System.Xaml.resources.dll" />
+      </Component>
+      <Component Id="Co00561" Directory="Dir0079" Guid="*">
+        <File Id="Fl00561" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\UIAutomationClient.resources.dll" />
+      </Component>
+      <Component Id="Co00562" Directory="Dir0079" Guid="*">
+        <File Id="Fl00562" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\UIAutomationClientSideProviders.resources.dll" />
+      </Component>
+      <Component Id="Co00563" Directory="Dir0079" Guid="*">
+        <File Id="Fl00563" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\UIAutomationProvider.resources.dll" />
+      </Component>
+      <Component Id="Co00564" Directory="Dir0079" Guid="*">
+        <File Id="Fl00564" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\UIAutomationTypes.resources.dll" />
+      </Component>
+      <Component Id="Co00565" Directory="Dir0079" Guid="*">
+        <File Id="Fl00565" Source="C:\Users\ItsGillani\.gemini\antigravity\scratch\FormatFusion\Publish\FormatFusion\zh-Hant\WindowsBase.resources.dll" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>
+

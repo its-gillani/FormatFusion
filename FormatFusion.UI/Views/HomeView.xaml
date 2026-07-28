@@ -1,0 +1,87 @@
+<Page x:Class="FormatFusion.UI.Views.HomeView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="clr-namespace:FormatFusion.UI.Views.Components"
+      Background="{DynamicResource ThemeWindowBackgroundBrush}"
+      Title="Home">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="48,40,48,24">
+
+                <!-- Headline -->
+                <TextBlock Text="Convert &amp; Compress" Style="{StaticResource ThemeHeadingText}"
+                           HorizontalAlignment="Center" Margin="0,0,0,8" />
+                <TextBlock Text="Every format. 100% offline. Zero uploads."
+                           Style="{StaticResource ThemeBodySecondaryText}"
+                           HorizontalAlignment="Center" Margin="0,0,0,40" />
+
+                <!-- Entry Points -->
+                <local:DropZoneCard Title="Convert Format"
+                                    Description="Change the file's format (mp4 → mkv, jpg → png)"
+                                    Icon="{StaticResource IconUpload}"
+                                    FilesDropped="ConvertFormat_FilesDropped" />
+                                    
+                <local:DropZoneCard Title="Convert Codec"
+                                    Description="Change the video codec (e.g. to H.265/HEVC)"
+                                    Icon="{StaticResource IconFileVideo}"
+                                    FileFilter="Video Files|*.mp4;*.mkv;*.avi;*.mov;*.webm;*.flv;*.wmv;*.3gp|All Files|*.*"
+                                    FilesDropped="ConvertCodec_FilesDropped" />
+
+                <local:DropZoneCard Title="Compress"
+                                    Description="Shrink a photo or video to a specific file size in MB"
+                                    Icon="{StaticResource IconArchive}"
+                                    FilesDropped="Compress_FilesDropped" />
+
+                <!-- Recent Jobs -->
+                <TextBlock Text="Recent" Style="{StaticResource ThemeSubtitleText}" Margin="0,0,0,12" />
+                <ItemsControl ItemsSource="{Binding RecentJobs}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="{DynamicResource ThemeSurfaceBackgroundBrush}"
+                                    CornerRadius="6"
+                                    BorderBrush="{DynamicResource ThemeBorderBrush}"
+                                    BorderThickness="1"
+                                    Padding="16,10" Margin="0,0,0,6">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="150" />
+                                        <ColumnDefinition Width="80" />
+                                    </Grid.ColumnDefinitions>
+                                    
+                                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                                        <TextBlock Text="{Binding FileName}"
+                                                   Style="{StaticResource ThemeBodyText}"
+                                                   FontWeight="SemiBold"
+                                                   TextTrimming="CharacterEllipsis" />
+                                        <TextBlock Text="{Binding Operation}"
+                                                   Style="{StaticResource ThemeCaptionText}"
+                                                   Opacity="0.8"
+                                                   Margin="0,2,0,0"
+                                                   TextTrimming="CharacterEllipsis" />
+                                    </StackPanel>
+
+                                    <!-- Success/Fail badge could go here if wanted, but user just asked for what it was converted to -->
+
+                                    <TextBlock Grid.Column="2"
+                                               Text="{Binding TimeAgo}"
+                                               Style="{StaticResource ThemeCaptionText}"
+                                               HorizontalAlignment="Right" VerticalAlignment="Center" />
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
+
+

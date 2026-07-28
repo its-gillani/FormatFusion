@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows10.0.19041.0</TargetFramework>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>FormatFusion.UI</RootNamespace>
+    <AssemblyName>FormatFusion</AssemblyName>
+    <StartupObject>FormatFusion.UI.App</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FormatFusion.Core\FormatFusion.Core.csproj" />
+    <ProjectReference Include="..\FormatFusion.Infrastructure\FormatFusion.Infrastructure.csproj" />
+    <ProjectReference Include="..\FormatFusion.Compression\FormatFusion.Compression.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fonts\**\*.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.3" />
+    <PackageReference Include="ModernWpfUI" Version="0.9.6" />
+    <PackageReference Include="Serilog" Version="4.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- FFmpeg binaries bundled with the app -->
+    <Content Include="Tools\ffmpeg.exe" CopyToOutputDirectory="PreserveNewest" Condition="Exists('Tools\ffmpeg.exe')" />
+    <Content Include="Tools\ffprobe.exe" CopyToOutputDirectory="PreserveNewest" Condition="Exists('Tools\ffprobe.exe')" />
+    <Content Include="Tools\pandoc.exe" CopyToOutputDirectory="PreserveNewest" Condition="Exists('Tools\pandoc.exe')" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon.ico" />
+  </ItemGroup>
+</Project>
+
