@@ -11,7 +11,7 @@ If you ever find FormatFusion helpful, please consider giving this repo a star o
 
 ## Features
 
-- **Universal Format Support:** Convert between hundreds of video, audio, image, and document formats seamlessly.
+- **Universal Format Support:** Convert between lots of video and photo formats seamlessly.
 - **Smart Compression:** Specify a target output size (e.g., "Compress to 25MB") and FormatFusion handles the complex bitrate math and multipass encoding automatically via an intelligent binary-search loop.
 - **Hardware Acceleration:** Native support for NVIDIA (NVENC), AMD (AMF), and Intel (QSV) hardware encoders, significantly speeding up video processing.
 - **Pre-flight Conflict Detection:** Proactively detects impossible codec-container combinations (e.g., VP9 inside MP4) and prompts for resolution before starting the job.
