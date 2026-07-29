@@ -5,6 +5,7 @@
 FormatFusion is a high-performance, completely offline utility for Windows that seamlessly handles file conversions and intelligent compression across video, audio, image, document, and archive formats. Built for a pragmatic, polished, and shippable solo developer experience, it brings together the power of industry-standard CLI tools into a beautiful, unified graphical interface.
 
 Zero uploads. Zero subscriptions. 100% local processing.
+
 If you ever find FormatFusion helpful, please consider giving this repo a star on github. The support of the community motivates me to craft such useful apps.
 ---
 
