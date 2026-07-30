@@ -8,6 +8,7 @@ Zero uploads. Zero subscriptions. 100% local processing.
 
 If you ever find FormatFusion helpful, please consider giving this repo a star on github. The support of the community motivates me to craft such useful apps.
 ---
+FormatFusion's Hardware Acceleration has not been widely tested, only testing on AMD GPU has been carried out by myself and even that is not on a large scale, since it was a small project handled by myself, therefore the app is to have many bugs yet and thus i would appreciate users of the app to notify me in case they run into any bugs/issues across the app and i'll resolve them ASAP.
 
 ## Features
 
