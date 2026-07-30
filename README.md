@@ -21,6 +21,15 @@ FormatFusion's Hardware Acceleration has not been widely tested, only testing on
 
 ---
 
+## Hardware Acceleration Options
+- Auto: Uses default GPU on the device, and fallbacks to CPU if no GPU has been found or selected conversion is not possible on the GPU installed in your system.
+- CPU: Uses CPU only for conversion/compression, it is not recommended to be used, especially not for videos.
+- AMD GPU: For both AMD GPU and AMD iGPU
+- Intel GPU: For both Intel GPU and Intel iGPU
+- NVIDIA GPU: For NVIDIA GPUs
+
+---
+
 ## Prerequisites
 
 If you are running the pre-compiled installers, you do not need to install any external dependencies (FFmpeg, FFprobe, and Pandoc are bundled). 
@@ -32,12 +41,6 @@ If you wish to build the app from source, you will need:
 
 ---
 
-## Hardware Acceleration Options
-- Auto: Uses default GPU on the device, and fallbacks to CPU if no GPU has been found or selected conversion is not possible on the GPU installed in your system.
-- CPU: Uses CPU only for conversion/compression, it is not recommended to be used, especially not for videos.
-- AMD GPU: For both AMD GPU and AMD iGPU
-- Intel GPU: For both Intel GPU and Intel iGPU
-- NVIDIA GPU: For NVIDIA GPUs
 
 ## Installation
 
