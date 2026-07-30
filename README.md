@@ -8,7 +8,7 @@ Zero uploads. Zero subscriptions. 100% local processing.
 
 If you ever find FormatFusion helpful, please consider giving this repo a star on github. The support of the community motivates me to craft such useful apps.
 ---
-FormatFusion's Hardware Acceleration has not been widely tested, only testing on AMD GPU has been carried out by myself and even that is not on a large scale, since it was a small project handled by myself, therefore the app is to have many bugs yet and thus i would appreciate users of the app to notify me in case they run into any bugs/issues across the app and i'll resolve them ASAP.
+FormatFusion's Hardware Acceleration has not been widely tested, only testing on AMD GPU has been carried out by myself and Intel iGPU has been tested too by the co-developer of this app and even that testing was not done on a large scale, since it was a small project handled by myself, therefore the app is to have many bugs yet and thus i would appreciate users of the app to notify me in case they run into any bugs/issues across the app and i'll resolve them ASAP.
 
 ## Features
 
@@ -31,6 +31,13 @@ If you wish to build the app from source, you will need:
 - **IDE:** Visual Studio 2022 (v17.12+) or JetBrains Rider or VS Code with C# Dev Kit.
 
 ---
+
+## Hardware Acceleration Options
+- Auto: Uses default GPU on the device, and fallbacks to CPU if no GPU has been found or selected conversion is not possible on the GPU installed in your system.
+- CPU: Uses CPU only for conversion/compression, it is not recommended to be used, especially not for videos.
+- AMD GPU: For both AMD GPU and AMD iGPU
+- Intel GPU: For both Intel GPU and Intel iGPU
+- NVIDIA GPU: For NVIDIA GPUs
 
 ## Installation
 
