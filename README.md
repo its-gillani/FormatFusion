@@ -8,7 +8,13 @@ Zero uploads. Zero subscriptions. 100% local processing.
 
 If you ever find FormatFusion helpful, please consider giving this repo a star on github. The support of the community motivates me to craft such useful apps.
 ---
-FormatFusion's Hardware Acceleration has not been widely tested, only testing on AMD GPU has been carried out by myself and Intel iGPU has been tested too by the co-developer of this app and even that testing was not done on a large scale, since it was a small project handled by myself, therefore the app is to have many bugs yet and thus i would appreciate users of the app to notify me in case they run into any bugs/issues across the app and i'll resolve them ASAP.
+## Hardware Acceleration Notice
+
+Hardware acceleration has currently been validated on AMD GPUs and Intel integrated graphics.
+
+Testing has been conducted by the development team across the available hardware; however, broader validation across additional GPUs, drivers, and system configurations is still ongoing.
+
+If you encounter any issues related to hardware acceleration, codec compatibility, or device-specific behavior, please open an issue with your system specifications so we can investigate and improve support.
 
 ## Features
 
@@ -101,6 +107,35 @@ To build the application manually from the source code:
 5. **Start:** Click "Convert Now" or "Compress Now" and monitor the progress in the Queue tab.
 
 ---
+##  Development Team
+
+FormatFusion is a collaborative project built with a strong focus on performance, usability, and reliability.
+
+### Abdul Subhan [@its-gillani]
+**Lead Developer**
+
+**Key Contributions**
+
+- Software architecture and overall project design
+- Media conversion and compression engine
+- FFmpeg, ImageMagick, and Pandoc integration
+- Hardware acceleration implementation
+- Project planning, releases, and maintenance
+
+---
+
+### Zohaib Ahmad [@de1nonlyzohaib]
+**Co-Developer & UI Developer**
+
+**Key Contributions**
+
+- Designing and implementing the application's user interface using WPF and ModernWpf
+- Intel iGPU compatibility and hardware acceleration testing
+- Codec compatibility validation across supported media formats
+- Bug fixing, issue verification, and quality assurance
+- Feature ideation, usability improvements, and design feedback
+- Documentation improvements and user experience enhancements
+
 
 ## License
 
