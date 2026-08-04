@@ -81,6 +81,11 @@
 
             </StackPanel>
         </ScrollViewer>
+        <Border Grid.Row="1" Background="{DynamicResource ThemeSurfaceBackgroundBrush}" BorderBrush="{DynamicResource ThemeBorderBrush}" BorderThickness="0,1,0,0" Padding="12,8">
+            <TextBlock TextAlignment="Center" Foreground="{DynamicResource ThemeTextSecondaryBrush}" FontSize="12">
+                Developed by Abdul Subhan (@its-gillani) and Zohaib Ahmad (@de1nonlyzohaib)
+            </TextBlock>
+        </Border>
     </Grid>
 </Page>
 
