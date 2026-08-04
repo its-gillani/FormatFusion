@@ -53,7 +53,16 @@
                 <StackPanel>
                     <TextBlock Text="FormatFusion" Style="{StaticResource ThemeTitleText}" Margin="0,0,0,4" />
                     <TextBlock Text="{Binding AppVersion, StringFormat='Version {0}'}"
-                               Style="{StaticResource ThemeBodySecondaryText}" Margin="0,0,0,16" />
+                               Style="{StaticResource ThemeBodySecondaryText}" Margin="0,0,0,12" />
+                    <TextBlock Text="Development Team:" Style="{StaticResource ThemeBodyText}" FontWeight="SemiBold" Margin="0,4,0,2" />
+                    <StackPanel Margin="8,0,0,12">
+                        <TextBlock Style="{StaticResource ThemeBodySecondaryText}">
+                            • <Hyperlink NavigateUri="https://github.com/its-gillani" RequestNavigate="Hyperlink_RequestNavigate" Foreground="{DynamicResource ThemeAccentBrush}">Abdul Subhan (@its-gillani)</Hyperlink> — Lead Developer
+                        </TextBlock>
+                        <TextBlock Style="{StaticResource ThemeBodySecondaryText}">
+                            • <Hyperlink NavigateUri="https://github.com/de1nonlyzohaib" RequestNavigate="Hyperlink_RequestNavigate" Foreground="{DynamicResource ThemeAccentBrush}">Zohaib Ahmad (@de1nonlyzohaib)</Hyperlink> — Co-Developer &amp; UI Developer
+                        </TextBlock>
+                    </StackPanel>
                     <Button Content="Open Source Licenses" Style="{StaticResource ThemeButtonSecondary}"
                             HorizontalAlignment="Left" Command="{Binding OpenLicensesCommand}" BorderThickness="0"/>
                 </StackPanel>

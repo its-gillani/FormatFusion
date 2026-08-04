@@ -5,15 +5,40 @@
              x:Name="Root">
     <Border x:Name="DropZoneBorder"
             MinHeight="140"
-            Style="{StaticResource ThemeDropZoneBorder}"
             AllowDrop="True"
             DragEnter="DropZone_DragEnter"
             DragLeave="DropZone_DragLeave"
             Drop="DropZone_Drop"
             MouseLeftButtonUp="DropZone_Click"
             Cursor="Hand"
-            Margin="0,0,0,16">
-        
+            Margin="0,0,0,16"
+            RenderTransformOrigin="0.5,0.5"
+            Style="{StaticResource ThemeDropZoneBorder}">
+
+        <!-- Smooth hover animation using named ScaleTransform -->
+        <Border.RenderTransform>
+            <ScaleTransform x:Name="DropZoneScaleTransform" ScaleX="1" ScaleY="1" />
+        </Border.RenderTransform>
+
+        <Border.Triggers>
+            <EventTrigger RoutedEvent="MouseEnter">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation Storyboard.TargetName="DropZoneScaleTransform" Storyboard.TargetProperty="ScaleX" To="1.06" Duration="0:0:0.18" />
+                        <DoubleAnimation Storyboard.TargetName="DropZoneScaleTransform" Storyboard.TargetProperty="ScaleY" To="1.06" Duration="0:0:0.18" />
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+            <EventTrigger RoutedEvent="MouseLeave">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation Storyboard.TargetName="DropZoneScaleTransform" Storyboard.TargetProperty="ScaleX" To="1" Duration="0:0:0.18" />
+                        <DoubleAnimation Storyboard.TargetName="DropZoneScaleTransform" Storyboard.TargetProperty="ScaleY" To="1" Duration="0:0:0.18" />
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Border.Triggers>
+
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />

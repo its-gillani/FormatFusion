@@ -81,6 +81,14 @@
 
             </StackPanel>
         </ScrollViewer>
+        <Border Grid.Row="1" Background="{DynamicResource ThemeSurfaceBackgroundBrush}" BorderBrush="{DynamicResource ThemeBorderBrush}" BorderThickness="0,1,0,0" Padding="12,8">
+            <TextBlock TextAlignment="Center" Foreground="{DynamicResource ThemeTextSecondaryBrush}" FontSize="12">
+                Developed by 
+                <Hyperlink NavigateUri="https://github.com/its-gillani" RequestNavigate="Hyperlink_RequestNavigate" Foreground="{DynamicResource ThemeAccentBrush}">Abdul Subhan (@its-gillani)</Hyperlink>
+                and 
+                <Hyperlink NavigateUri="https://github.com/de1nonlyzohaib" RequestNavigate="Hyperlink_RequestNavigate" Foreground="{DynamicResource ThemeAccentBrush}">Zohaib Ahmad (@de1nonlyzohaib)</Hyperlink>
+            </TextBlock>
+        </Border>
     </Grid>
 </Page>
 

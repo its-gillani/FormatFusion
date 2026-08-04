@@ -1,8 +1,10 @@
 using FormatFusion.UI.ViewModels;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Win32;
+using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Navigation;
 
 namespace FormatFusion.UI.Views;
 
@@ -31,5 +33,15 @@ public partial class HomeView : Page
     private void Compress_FilesDropped(object sender, string[] files)
     {
         _vm.HandleFilesForCompress(files);
+    }
+
+    private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
+    {
+        Process.Start(new ProcessStartInfo
+        {
+            FileName = e.Uri.AbsoluteUri,
+            UseShellExecute = true
+        });
+        e.Handled = true;
     }
 }
